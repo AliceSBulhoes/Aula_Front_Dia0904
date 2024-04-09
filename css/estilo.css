@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    font-family: "Inria Sans", sans-serif;
+}
+#topo{
+    width: 100%;
+    height: 75px;
+    background-color: #fff059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+#logo{
+    width: 15%;
+    height: 50px;
+    float: left;
+}
+#logo img{
+    width: 160px;
+    height: 40px;
+}
+#busca{
+    border-radius:5px;
+    border: none;
+    padding: 10px;
+    width: 400px;
+}
+#menu{
+    display: flex;
+    gap: 1.5em;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    transition: ease 1s;
+}
+#menu a:hover{
+    background-color: #f5f4e1;
+    box-shadow: 1px 1px 0.5px black;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/imagem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pagamentos{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    text-align: center;
+}
+#cards{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 10px;
+}
+.card{
+    width: 20%;
+    height: 240px;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.317);
+    background-color: rgb(240, 240, 240);
+    margin: 20px;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+.card span{
+    display: flex;
+    margin-left: 30px;
+    font-weight: 900;
+}
+.card img{
+    width: 40%;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.317);
+}
+.card:hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+}
